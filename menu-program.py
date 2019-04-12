@@ -1,13 +1,14 @@
+
 import random
 
 week = ["MONDAY", "TUESDAY", "WEDNESDAY", "THURSDAY", "FRIDAY", "SATURDAY", "SUNDAY"]
 
 with open("menu-list.txt", "r") as menus:
+    meals = []
     for meal in menus:
-        meal = meal.split("; ")
-        print(meal)
-
+        meals.append(meal.split())
 
 for day in week:
-    print(day, "\n", random.choice(meal))
-
+    random.shuffle(meals)
+    print(day, "\n", meals.pop())
+    
