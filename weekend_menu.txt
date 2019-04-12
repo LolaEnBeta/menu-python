@@ -1,0 +1,5 @@
+Menu wk1: Pizza
+Menu wk2: Rissotto
+Menu wk3: BBQ
+Menu wk4: Fideuá
+Menu wk5: Macarrones

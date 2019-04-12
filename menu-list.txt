@@ -1,10 +1,10 @@
-Menu 1
-Menu 2
-Menu 3
-Menu 4
-Menu 5
-Menu 6
-Menu 7
-Menu 8
-Menu 9
-Menu 10
+Menu 1: Macarrones (Ingr: 200gr macarrones, 1 bote tomate frito, 1 cebolla, queso)
+Menu 2: Verduras al horno (Ingr: 2 patatas, 1 cebolla, 2 tomates, 3 ajos, 1 pimiento)
+Menu 3: Sandwiches (Ingr: pan bimbo, queso emmental o gouda, jamon dulce/vegetariano)
+Menu 4: Sopa (Ingr: Caldo de verduras casero, aletria, garbanzos)
+Menu 5: Judías (Ingr: 550gr judías verdes, 2 patatas, 2 tomates, 2 zanahorias)
+Menu 6: Tortilla (Ingr: 2 patatas, media cebolla, 3 huevos)
+Menu 7: Pan tostado (Ingr: pan de pages, tomate para untar)
+Menu 8: Ensalada
+Menu 9: Pizza (Ingr: masa de pizza, champiñones, cherris, queso/mozzarella, tomate frito)
+Menu 10: Ensalada de pasta
