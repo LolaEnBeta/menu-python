@@ -14,10 +14,17 @@ with open("weekend_menu.txt", "r") as weekend_menus:
     for meal in weekend_menus:
         weekend_meals.append(meal.split())
 
-for day in week:
-    random.shuffle(meals)
-    print(day, "\n", meals.pop())
-    
-for day in weekend:
-    random.shuffle(weekend_meals)
-    print(day, "\n", "Lunch", "\n", weekend_meals.pop(), "\n", "Dinner", "\n", weekend_meals.pop())
+def select_menu_for_every_day():
+    for day in week:
+        random.shuffle(meals)
+        print(day, "\n", meals.pop())
+
+def select_menu_for_weekend():
+    for day in weekend:
+        random.shuffle(weekend_meals)
+        print(day, "\n", "Lunch", "\n", weekend_meals.pop(), "\n", "Dinner", "\n", weekend_meals.pop())
+
+menu_week = select_menu_for_every_day()
+
+menu_weekend = select_menu_for_weekend() 
+
